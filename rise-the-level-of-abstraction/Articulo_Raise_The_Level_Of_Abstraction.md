@@ -15,27 +15,27 @@ El concepto que se me apareció de golpe fue el de **"Raise the level of abstrac
 ### Los Albores de la Computación y el Nivel Físico
 En los inicios, programar requería una comprensión absoluta del hardware subyacente. Las computadoras pioneras se configuraban de manera puramente física y mecánica.
 
-`[aquí va tu Imagen 1: El Nivel Físico (ENIAC y Tarjetas Perforadas)]`
+![El Nivel Físico ENIAC y Tarjetas Perforadas](./imgs/0-layer-first-computer.png)
 
 A este nivel, la innovación estaba severamente limitada por la capacidad cognitiva humana para gestionar la complejidad de los componentes físicos directos.
 
-`[aquí va tu Imagen 2: El Nivel Lógico (Circuitos y Microarquitectura)]`
+![El Nivel Lógico (Circuitos y Microarquitectura)](./imgs/1-layer-micro.png)
 
 ### El Código Máquina y el Nacimiento del Assembler
 El procesador solo entiende bits. Originalmente, los programas se escribían en secuencias puras de unos y ceros (código máquina), lo que hacía casi imposible levantar la vista del detalle para pensar en el diseño general del sistema.
 
-`[aquí va tu Imagen 3: Código Máquina (El Dump Hexadecimal)]`
+![Código Máquina (El Dump Hexadecimal)](./imgs/2-layer-machine-code.png)
 
 Para aliviar esta carga, los científicos de la computación crearon los lenguajes de ensamblaje (*Assembly*). Por primera vez, se introdujo una representación simbólica (mnemónicos como `MOV` o `ADD`) que un programa llamado "ensamblador" traducía al lenguaje nativo del chip. Había nacido la primera gran capa de abstracción.
 
-`[aquí va tu Imagen 4: Código Assembler (La Primera Abstracción Simbólica)]`
+![Código Assembler (La Primera Abstracción Simbólica)](./imgs/3-layer-assembler.png)
 
 ### Los Lenguajes de Alto Nivel y la Revolución del Compilador
 A mediados de la década de 1950, John Backus y su equipo en IBM revolucionaron la industria con **FORTRAN** (Formula Translator). Esto permitió a los programadores expresar intenciones matemáticas complejas de forma directa (como `c = a + b`), delegando en un "compilador" la tarea de generar las instrucciones primitivas de la máquina. 
 
 Con el tiempo, lenguajes como **C, C++ y C#** operaron a niveles progresivamente más altos, aislando los conceptos de negocio de la infraestructura del hardware. Como bien señala Bjarne Stroustrup (creador de C++): *"Queremos lidiar con los problemas al mismo nivel en el que pensamos esos problemas. Cuando hacemos eso, no hay una brecha entre la forma en que entendemos los problemas y la forma en que implementamos sus soluciones. No tenemos que ser el compilador."*
 
-`[aquí va tu Imagen 5: Evolución de los Lenguajes de Alto Nivel (FORTRAN a C#)]`
+![Evolución de los Lenguajes de Alto Nivel (FORTRAN a C#)](./imgs/4-layer-high-level-programming-languages.png)
 
 ---
 
@@ -43,7 +43,7 @@ Con el tiempo, lenguajes como **C, C++ y C#** operaron a niveles progresivamente
 
 Hoy nos encontramos ante un cambio de paradigma idéntico al paso del Assembler a los lenguajes estructurados. Las herramientas de Inteligencia Artificial Generativa y los sistemas de agentes autónomos están asumiendo el rol de **un nuevo compilador moderno**.
 
-`[aquí va tu Imagen 6: IA como el Nuevo Layer de Abstracción]`
+![IA como el Nuevo Layer de Abstracción](./imgs/5-layer-ai-workflows.png)
 
 La IA generativa rompe la barrera de la sintaxis rígida al permitirnos interactuar mediante el lenguaje natural. El humano ya no actúa como el transcriptor de reglas gramaticales para la máquina, sino como el **diseñador del sistema y el validador de la arquitectura**. El código tradicional pasa a ser un *output* automatizado.
 
