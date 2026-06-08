@@ -37,6 +37,8 @@ Con el tiempo, lenguajes como **C, C++ y C#** operaron a niveles progresivamente
 
 `[aquí va tu Imagen 5: Evolución de los Lenguajes de Alto Nivel (FORTRAN a C#)]`
 
+---
+
 ### El Presente y el Futuro: GenAI como la Nueva Capa de Abstracción
 
 Hoy nos encontramos ante un cambio de paradigma idéntico al paso del Assembler a los lenguajes estructurados. Las herramientas de Inteligencia Artificial Generativa y los sistemas de agentes autónomos están asumiendo el rol de **un nuevo compilador moderno**.
@@ -65,7 +67,7 @@ Para entender el impacto real de este nuevo nivel de abstracción, no basta con 
 
 Viniendo de escuelas de pensamiento tan distintas, sus visiones del 2026 convergen en un punto de quiebre absoluto: **el flujo de trabajo tradicional donde un desarrollador pasa horas picando código línea por línea está oficialmente obsoleto**. 
 
-Por un lado, DHH describe un salto radical hacia un flujo de trabajo **"Agent-First"** (Agente Primero). Confiesa que ha dejado de escribir la gran mayoría del código a mano para operar en un "Modo Centauro", donde él lidera la estrategia y delega la ejecución mecánica a agentes autónomos en la terminal. DHH introduce un conceptuado fundamental para los arquitectos actuales: a medida que la IA democratiza la escritura de sintaxis, la ventaja competitiva del ingeniero senior ya no radica en su velocidad para tipear, sino en su **criterio, su gusto, su sentido de la estética y sus implacables estándares de calidad**.
+Por un lado, DHH describe un salto radical hacia un flujo de trabajo **"Agent-First"** (Agente Primero). Confiesa que ha dejado de escribir la gran mayoría del código a mano para operar en un "Modo Centauro", donde él lidera la estrategia y delega la ejecución mecánica a agentes autónomos en la terminal. DHH introduce un concepto fundamental para los arquitectos actuales: a medida que la IA democratiza la escritura de sintaxis, la ventaja competitiva del ingeniero senior ya no radica en su velocidad para tipear, sino en su **criterio, su gusto, su sentido de la estética y sus implacables estándares de calidad**.
 
 Por el otro lado, Anders Hejlsberg valida este cambio desde la perspectiva del creador de herramientas. Alguien que dedicó su vida a construir compiladores tradicionales observa hoy que la IA actúa como el nuevo intérprete de la intención humana. Sin embargo, Anders aporta una claridad técnica indispensable: la IA no hace que los lenguajes formales desaparezcan; al contrario, los sistemas de tipado estricto y los compiladores que él ayudó a diseñar son hoy los "guardarraíles" matemáticos que permiten a la IA validar si lo que generó de forma probabilística es correcto y coherente.
 
@@ -76,6 +78,17 @@ Aquí es donde el diseño de software y la ingeniería de plataformas se encuent
 1. Diseñar e implementar las arquitecturas donde correrán estos sistemas de agentes en producción (utilizando frameworks de backend como **LangChain** o **LangGraph**).
 2. Liderar la orquestación del desarrollo desde entornos de desarrollo nativos de IA (como **Antigravity**), donde el ingeniero actúa como un revisor premium y director del sistema.
 
+### Los Cuatro Patrones de Diseño Agénticos
+
+Para entender cómo operan estos nuevos flujos de trabajo sin caer en el *hype*, es fundamental revisar la teoría de ingeniería que los sustenta. Andrew Ng y el equipo de investigadores de *DeepLearning.AI* formalizaron que el verdadero salto en el rendimiento de la IA generativa no viene de agrandar los modelos, sino de implementar **Patrones de Diseño Agénticos (*Agentic Design Patterns*)**. 
+
+Cuando dejamos de usar un LLM en modo *Zero-Shot* (una única pregunta y una única respuesta esperada) y lo obligamos a iterar a través de un flujo de trabajo, los resultados en tareas complejas como la programación se disparan. Esta teoría se divide en cuatro pilares fundamentales:
+
+* **Reflexión (*Reflection*):** En lugar de aceptar el primer código que genera el modelo, se implementa un bucle donde el agente evalúa su propia salida de forma crítica. Un agente genera el código y otro (o el mismo en un segundo paso) actúa como revisor, buscando *bugs*, ineficiencias o fallas de arquitectura, refinando el resultado de manera autónoma antes de entregarlo.
+* **Uso de Herramientas (*Tool Use*):** Los LLMs por sí solos no saben calcular con precisión matemática ni pueden validar si un código compila. Este patrón dota al agente de la capacidad de reconocer cuándo necesita ayuda externa y ejecutar herramientas reales: calculadoras, intérpretes de código, linters, APIs o terminales de ejecución. El agente ya no solo "piensa" de forma probabilística; opera de forma determinista sobre el entorno.
+* **Planificación (*Planning*):** Ante un requerimiento grande (como *"escribí un módulo completo de Node.js"*), un humano no empieza a tipear todo de corrido; primero planifica. Este patrón obliga al agente a descomponer una meta macro en una secuencia detallada de sub-pasos, prever dependencias y decidir el orden de ejecución antes de tocar una sola línea de código.
+* **Colaboración Multi-Agente (*Multi-Agent Collaboration*):** El límite de un solo agente con un *prompt* gigantesco es la satisfacción de su contexto. La solución de ingeniería es la división del trabajo: fragmentar el problema entre múltiples agentes especializados donde cada uno tiene un rol explícito (por ejemplo, un Arquitecto, un Programador y un Tester). Estos agentes conversan entre sí, se delegan subtareas y debaten la mejor solución, emulando la dinámica de un equipo de desarrollo de alto rendimiento.
+
 ---
 
 ## Fuentes de Referencia
@@ -85,6 +98,7 @@ Aquí es donde el diseño de software y la ingeniería de plataformas se encuent
 * **Wilson, Mark.** *Why UML is a Bad Abstraction Mechanism* y *Many Systems Are Built at the Wrong Level of Abstraction*. Markv Tech Blog.
 * **Garros, Damien.** *AI Is the New Compiler*. OpsMill Blog.
 * **López, Ángel "Java".** Conceptos transversales de diseño de software y *Raise the Level of Abstraction*.
+* **Ng, Andrew / DeepLearning.AI.** *Agentic Design Patterns (The Batch technical series)*.
 
 ---
 
