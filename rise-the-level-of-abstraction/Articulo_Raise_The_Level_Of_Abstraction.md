@@ -12,7 +12,7 @@ El concepto que se me apareció de golpe fue el de **"Raise the level of abstrac
 
 ## El Hilo Histórico de la Abstracción
 
-### 1. Los Albores de la Computación y el Nivel Físico
+### Los Albores de la Computación y el Nivel Físico
 En los inicios, programar requería una comprensión absoluta del hardware subyacente. Las computadoras pioneras se configuraban de manera puramente física y mecánica.
 
 `[aquí va tu Imagen 1: El Nivel Físico (ENIAC y Tarjetas Perforadas)]`
@@ -21,7 +21,7 @@ A este nivel, la innovación estaba severamente limitada por la capacidad cognit
 
 `[aquí va tu Imagen 2: El Nivel Lógico (Circuitos y Microarquitectura)]`
 
-### 2. El Código Máquina y el Nacimiento del Assembler
+### El Código Máquina y el Nacimiento del Assembler
 El procesador solo entiende bits. Originalmente, los programas se escribían en secuencias puras de unos y ceros (código máquina), lo que hacía casi imposible levantar la vista del detalle para pensar en el diseño general del sistema.
 
 `[aquí va tu Imagen 3: Código Máquina (El Dump Hexadecimal)]`
@@ -30,16 +30,14 @@ Para aliviar esta carga, los científicos de la computación crearon los lenguaj
 
 `[aquí va tu Imagen 4: Código Assembler (La Primera Abstracción Simbólica)]`
 
-### 3. Los Lenguajes de Alto Nivel y la Revolución del Compilador
+### Los Lenguajes de Alto Nivel y la Revolución del Compilador
 A mediados de la década de 1950, John Backus y su equipo en IBM revolucionaron la industria con **FORTRAN** (Formula Translator). Esto permitió a los programadores expresar intenciones matemáticas complejas de forma directa (como `c = a + b`), delegando en un "compilador" la tarea de generar las instrucciones primitivas de la máquina. 
 
 Con el tiempo, lenguajes como **C, C++ y C#** operaron a niveles progresivamente más altos, aislando los conceptos de negocio de la infraestructura del hardware. Como bien señala Bjarne Stroustrup (creador de C++): *"Queremos lidiar con los problemas al mismo nivel en el que pensamos esos problemas. Cuando hacemos eso, no hay una brecha entre la forma en que entendemos los problemas y la forma en que implementamos sus soluciones. No tenemos que ser el compilador."*
 
 `[aquí va tu Imagen 5: Evolución de los Lenguajes de Alto Nivel (FORTRAN a C#)]`
 
----
-
-## El Presente y el Futuro: GenAI como la Nueva Capa de Abstracción
+### El Presente y el Futuro: GenAI como la Nueva Capa de Abstracción
 
 Hoy nos encontramos ante un cambio de paradigma idéntico al paso del Assembler a los lenguajes estructurados. Las herramientas de Inteligencia Artificial Generativa y los sistemas de agentes autónomos están asumiendo el rol de **un nuevo compilador moderno**.
 
@@ -58,6 +56,25 @@ No obstante, como ingenieros de software y arquitectos técnicos, nos enfrentamo
 Elevar el nivel de abstracción con GenAI no significa el fin de la ingeniería de software; significa su evolución hacia el **Pensamiento de Sistemas (*Systems Thinking*)**. Al automatizar el entramado mecánico del código rutinario, el foco se desplaza por completo hacia la ingeniería de requerimientos, el diseño de la resiliencia arquitectónica y la inspección meticulosa de las interacciones del sistema. 
 
 El código se vuelve invisible en la operación diaria, del mismo modo que el código máquina es invisible para quien hoy escribe una aplicación en Node.js o configura un pipeline de infraestructura en la nube. Operamos en el nivel conceptual, donde verdaderamente se resuelven los problemas.
+
+---
+
+## Operando en el Siguiente Nivel: Frameworks de Agentes y Nuevos Flujos de Trabajo
+
+Para entender el impacto real de este nuevo nivel de abstracción, no basta con mirar las herramientas aisladas; es necesario observar cómo está cambiando la práctica diaria de quienes moldean nuestra industria. Recientemente, el analista Gergely Orosz (*The Pragmatic Engineer*) entrevistó a dos figuras icónicas que representan los dos extremos del espectro del desarrollo de software: **Anders Hejlsberg**, el legendario diseñador de lenguajes detrás de Turbo Pascal, Delphi, C# y TypeScript; y **David Heinemeier Hansson (DHH)**, el creador de Ruby on Rails y ferviente defensor del pragmatismo en el desarrollo de productos.
+
+Viniendo de escuelas de pensamiento tan distintas, sus visiones del 2026 convergen en un punto de quiebre absoluto: **el flujo de trabajo tradicional donde un desarrollador pasa horas picando código línea por línea está oficialmente obsoleto**. 
+
+Por un lado, DHH describe un salto radical hacia un flujo de trabajo **"Agent-First"** (Agente Primero). Confiesa que ha dejado de escribir la gran mayoría del código a mano para operar en un "Modo Centauro", donde él lidera la estrategia y delega la ejecución mecánica a agentes autónomos en la terminal. DHH introduce un conceptuado fundamental para los arquitectos actuales: a medida que la IA democratiza la escritura de sintaxis, la ventaja competitiva del ingeniero senior ya no radica en su velocidad para tipear, sino en su **criterio, su gusto, su sentido de la estética y sus implacables estándares de calidad**.
+
+Por el otro lado, Anders Hejlsberg valida este cambio desde la perspectiva del creador de herramientas. Alguien que dedicó su vida a construir compiladores tradicionales observa hoy que la IA actúa como el nuevo intérprete de la intención humana. Sin embargo, Anders aporta una claridad técnica indispensable: la IA no hace que los lenguajes formales desaparezcan; al contrario, los sistemas de tipado estricto y los compiladores que él ayudó a diseñar son hoy los "guardarraíles" matemáticos que permiten a la IA validar si lo que generó de forma probabilística es correcto y coherente.
+
+### La Transición del Ecosistema: De Oráculos a Colegas
+Esta convergencia entre Hejlsberg y DHH nos muestra el verdadero mapa del *State of the Art*: dejamos atrás la era de los plugins de chat básicos —donde usábamos a la IA como un "oráculo" para copiar y pegar fragmentos aislados— y entramos de lleno en la era de los **Flujos de Trabajo Agénticos (*Agentic Workflows*)**. 
+
+Aquí es donde el diseño de software y la ingeniería de plataformas se encuentran operando en el siguiente nivel. Hoy, el trabajo real se divide entre:
+1. Diseñar e implementar las arquitecturas donde correrán estos sistemas de agentes en producción (utilizando frameworks de backend como **LangChain** o **LangGraph**).
+2. Liderar la orquestación del desarrollo desde entornos de desarrollo nativos de IA (como **Antigravity**), donde el ingeniero actúa como un revisor premium y director del sistema.
 
 ---
 
