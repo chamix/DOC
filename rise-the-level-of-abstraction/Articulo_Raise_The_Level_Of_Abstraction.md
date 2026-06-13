@@ -201,6 +201,22 @@ No obstante, esta experiencia en la trinchera agéntica también desveló las fr
 
 ---
 
+## Conclusión: El Futuro del Ingeniero de Sistemas en la Era Agéntica
+
+Elevar el nivel de abstracción mediante el uso de Inteligencia Artificial Generativa y entornos agénticos no representa la automatización del ingenio humano, sino la liberación de su verdadero potencial. Al delegar la micro-sintaxis rígida, el cableado repetitivo de infraestructura y la corrección de errores triviales de la terminal a una célula virtual jerárquica y determinista, el rol del desarrollador no desaparece; se transforma profundamente. Pasamos de ser transcriptores de código a diseñadores de intenciones lógicas, guardianes de la Clean Architecture y arquitectos de sistemas complejos orientados al pensamiento de sistemas (*Systems Thinking*). 
+
+La clave de este cambio de paradigma es comprender que la IA no es un reemplazo de la artesanía del software, sino un multiplicador intelectual. El control, los estándares de calidad y la responsabilidad de la coherencia técnica siguen estando bajo el dominio irrenunciable del humano en el centro del control (*Human-in-the-Loop*). Al domar el no-determinismo probabilístico de los modelos con guardarraíles matemáticos, suites de pruebas rigurosas y una sólida base de principios de diseño tradicionales, la ingeniería de software evoluciona hacia una disciplina mucho más estratégica, abstracta y creativa.
+
+---
+
+Si te interesa profundizar en los detalles técnicos de esta implementación o explorar de primera mano cómo interactúa este flujo agéntico, podés acceder al repositorio público del proyecto:
+
+👉 **[GitHub - json-mapper](https://github.com/chamix/json-mapper)**
+
+*Nota del autor: Si bien este módulo nació como una Prueba de Concepto (POC) artesanal bajo la premisa de "aprender haciendo" (learn by doing), el repositorio es completamente abierto. Te invito a clonarlo, auditar sus capas de abstracción e incluso evolucionar tu propia versión si querés llevar este laboratorio experimental al siguiente nivel.*
+
+---
+
 ## Fuentes de Referencia
 
 * **Shih, Willy C. / Harvard Business School.** *Increasing the Level of Abstraction as a Strategy for Accelerating the Adoption of Complex Technologies*. Strategy Science 6, no. 1 (2021): 54–61. [Texto completo en PDF - HBS](https://www.hbs.edu/ris/Publication%20Files/Increasing%20the%20level%20of%20abstraction_ca0a5b9b-cec7-482c-95ca-b56e5c5a9d67.pdf)
