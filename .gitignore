@@ -1,1 +1,15 @@
+# ==============================================================================
+# DOCS-AS-CODE WORKFLOW GUARDRAILS
+# ==============================================================================
+
+# Excluir directorios de imágenes en todo el árbol de carpetas de forma recursiva
+# para evitar el almacenamiento de archivos binarios pesados en el historial de Git.
 **/imgs/
+
+# Excluir las dependencias locales de Node.js instaladas para la automatización
+# y compilación del entorno del proyecto (ej. Eleventy, rimraf).
+node_modules/
+
+# Excluir las distribuciones HTML estáticas auto-contenidas y compiladas 
+# generadas de manera local por el pipeline de compilación de Eleventy.
+**/_site/
