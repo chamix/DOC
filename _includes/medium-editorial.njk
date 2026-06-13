@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title | default("Technical Article") }}</title>
+  <style>
+    /* Clean CSS Reset & Medium Palette variables */
+    :root {
+      --text-color: #242424;
+      --bg-color: #ffffff;
+      --heading-color: #1a1a1a;
+      --accent-color: #6b6b6b;
+      --blockquote-border: #242424;
+      --code-bg: #f2f2f2;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.8;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+      padding: 5rem 1.5rem;
+    }
+
+    /* Core Reading Container - Replicating Medium's exact 680px optimal line-length */
+    .article-container {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 3rem;
+    }
+
+    /* Typography Hierarchy */
+    h1 {
+      font-size: 2.6rem;
+      line-height: 1.15;
+      font-weight: 700;
+      letter-spacing: -0.022em;
+      color: var(--heading-color);
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.75rem;
+      line-height: 1.3;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--heading-color);
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+      line-height: 1.4;
+      font-weight: 600;
+      color: var(--heading-color);
+      margin-top: 2.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    p {
+      font-size: 1.25rem;
+      letter-spacing: -0.003em;
+      font-weight: 400;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Medium's Prominent Text Blockquotes */
+    blockquote {
+      border-left: 3px solid var(--blockquote-border);
+      padding-left: 1.5rem;
+      margin: 2rem 0;
+      font-style: italic;
+      color: var(--text-color);
+    }
+    
+    blockquote p {
+      font-size: 1.35rem;
+      color: #242424;
+    }
+
+    /* Standard Markdown Links */
+    a {
+      color: var(--text-color);
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+
+    a:hover {
+      color: #000000;
+    }
+
+    /* Inline Code snippets */
+    code {
+      font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 0.85em;
+      background-color: var(--code-bg);
+      padding: 0.2rem 0.4rem;
+      border-radius: 3px;
+    }
+
+    /* Technical Code Blocks */
+    pre {
+      background-color: #1a1a1a;
+      color: #f8f8f2;
+      padding: 1.5rem;
+      border-radius: 4px;
+      overflow-x: auto;
+      margin: 2rem 0;
+    }
+
+    pre code {
+      background-color: transparent;
+      padding: 0;
+      color: inherit;
+      font-size: 0.95em;
+    }
+
+    /* Fully Self-Contained Base64 Rendered Images */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 2.5rem auto;
+      border-radius: 2px;
+    }
+
+    hr {
+      border: 0;
+      border-top: 1px solid #e6e6e6;
+      margin: 3rem 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="article-container">
+    <header>
+      <span style="font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent-color); font-weight: 500;">
+        Technical Thought Leadership
+      </span>
+    </header>
+
+    <article>
+      {{ content | safe }}
+    </article>
+  </div>
+</body>
+</html>
