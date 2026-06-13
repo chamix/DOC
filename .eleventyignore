@@ -1,0 +1,6 @@
+# Ignore specific markdown files you don't want as HTML pages
+notas-ideas-material-extra.md
+README.MD
+
+# Ignore entire folders if you create archived drafts later
+**/drafts/

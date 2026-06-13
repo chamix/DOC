@@ -20,8 +20,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf _site",
-    "build": "npm run clean && npx @11ty/eleventy",
-    "rebuild": "npm run build"
+    "build": "npm run clean && npx @11ty/eleventy"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
