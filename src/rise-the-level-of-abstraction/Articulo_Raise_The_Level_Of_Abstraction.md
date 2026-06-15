@@ -1,6 +1,6 @@
 ---
-layout: medium-editorial.njk
 title: "Raise the Level of Abstraction"
+layout: medium-editorial.njk
 ---
 
 # Raise the Level of Abstraction: Del Assembler a la Inteligencia Artificial Generativa
