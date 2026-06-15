@@ -10,6 +10,10 @@
 # y compilación del entorno del proyecto (ej. Eleventy, rimraf).
 node_modules/
 
-# Excluir las distribuciones HTML estáticas auto-contenidas y compiladas 
+# Excluir las distribuciones HTML estáticas auto-contenidas y compiladas
 # generadas de manera local por el pipeline de compilación de Eleventy.
 **/_site/
+
+# Script local para publicar artículos en el repo del blog (Astro), depende
+# de una ruta de repositorio local que no tiene sentido versionar.
+scripts/publish-to-blog.js
