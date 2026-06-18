@@ -1,5 +1,8 @@
 # Ignore specific markdown files you don't want as HTML pages
-/rise-the-level-of-abstraction/notas-ideas-material-extra.md
+/rise-the-level-of-abstraction/_notas-ideas-material-extra.md
+/gobierno-agentes-ia/_sources-agentic-workflows.md
+
+# Ignore project README.MD
 README.MD
 
 # Ignore entire folders if you create archived drafts later
