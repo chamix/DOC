@@ -236,4 +236,4 @@ Si te interesa profundizar en los detalles técnicos de esta implementación o e
 ---
 
 *by chamix2@hotmail.com*
-*Junio 2026*
+*Junio 5 2026*
