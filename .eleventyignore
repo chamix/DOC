@@ -1,6 +1,5 @@
-# Ignore specific markdown files you don't want as HTML pages
-/rise-the-level-of-abstraction/_notas-ideas-material-extra.md
-/gobierno-agentes-ia/_sources-agentic-workflows.md
+# Ignore all markdown files starting with '_' you don't want as HTML pages
+**/_*.md
 
 # Ignore project README.MD
 README.MD
