@@ -59,5 +59,3 @@
 |---|---|---|---|
 | 1 | Reporte de Azure DevOps → script PS → app HTML estática | Reporting / automatización | Oráculo vs. compilador de intención |
 | 2 | Scaffolding de módulos Terraform (experto vs. inexperto) | Infra-as-Code / Platform Engineering | Pattern matching vs. conocimiento de arquitectura; invariantes no documentadas |
-
-*(Seguir agregando casos a medida que aparecen en la conversación.)*
