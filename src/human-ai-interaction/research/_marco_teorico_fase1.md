@@ -26,9 +26,13 @@ Esto introduce **El Esfuerzo de Curaduría (*The Sifting Effort*)**: el tiempo q
 
 ---
 
-## 3. Matriz de Esfuerzo Epistémico e Interacción
+## 3. Matriz de Esfuerzo Epistémico e Interacción (modelo heurístico propuesto)
 
-Para formalizar y predecir el comportamiento del bucle de co-pensamiento, se establece la siguiente relación entre la complejidad de la tarea y los turnos de iteración necesarios ($T$), definidos bajo el ciclo completo: $	ext{Prompt (Humano)} ightarrow 	ext{Output (IA)} ightarrow 	ext{Evaluación/Refinamiento (Humano)}$.
+**Nota metodológica:** la matriz que sigue es un modelo heurístico propuesto por el autor a partir de la observación de su propia práctica profesional, no un hallazgo psicométrico medido en estudio alguno. Los rangos de turnos ($T$) no provienen de ninguna de las fuentes citadas en `_fuentes.md` — se presentan como hipótesis de trabajo, útil para pensar el fenómeno, pendiente de validación empírica (por ejemplo, contando turnos reales en un log de conversaciones propio antes de publicarla con esta forma).
+
+Para formalizar y predecir el comportamiento del bucle de co-pensamiento, se establece la siguiente relación entre la complejidad de la tarea y los turnos de iteración necesarios ($T$), definidos bajo el ciclo completo: $	ext{Prompt (Humano)} 
+ightarrow 	ext{Output (IA)} 
+ightarrow 	ext{Evaluación/Refinamiento (Humano)}$.
 
 | Nivel de Complejidad de la Idea | Tipo de Procesamiento Cognitivo | Rango de Turnos ($T$) | Rol Funcional del Usuario | Dinámica de Lectoescritura Relativa |
 | :--- | :--- | :--- | :--- | :--- |
@@ -38,12 +42,8 @@ Para formalizar y predecir el comportamiento del bucle de co-pensamiento, se est
 
 ---
 
-## 4. Conclusiones y Dimensión Sociológica del Co-pensamiento
+## 4. Conclusión de Fase 1
 
-La investigación permite concluir que las herramientas de GenAI han dejado de ser meros utilitarios para convertirse en **infraestructuras cognitivas** que modifican la arquitectura del pensamiento complejo. El **"Postulado del Co-pensamiento Eficiente"** determina que la IA mitiga la fricción del inicio creativo mediante un MVP textual ágil, delegando en el ser humano la optimización mediante la evaluación crítica y la búsqueda de comprensión mutua.
+La investigación permite concluir que las herramientas de GenAI han dejado de ser meros utilitarios para convertirse en **infraestructuras cognitivas** que modifican la arquitectura del pensamiento complejo. El **"Postulado del Co-pensamiento Eficiente"** —etiqueta propia acuñada para esta investigación, no un término de la literatura— determina que la IA mitiga la fricción del inicio creativo mediante un MVP textual ágil, delegando en el ser humano la optimización mediante la evaluación crítica y la búsqueda de comprensión mutua.
 
-Sin embargo, este framework de interacción desvela una profunda **implicación sociológica** en términos de equidad educativa y acceso:
-1. **Los usuarios con alta competencia en pensamiento crítico y metacognición** emplearán la GenAI como un sofisticado "partner de sparring" intelectual. Estos individuos capitalizarán la alta cantidad de turnos ($T$), forzarán la sintonía fina del modelo a través del tipeo y la lectura profunda, y llevarán el conocimiento hacia horizontes avanzados.
-2. **Los usuarios que carezcan de herramientas de pensamiento crítico y evaluación epistémica** tenderán a aceptar de forma ciega el primer output superficial y estandarizado del sistema. Al eliminar la fricción del andamiaje interactivo, se produce un estancamiento intelectual masivo.
-
-Consecuentemente, la GenAI no actúa como un igualador intelectual automático, sino como un **potente amplificador de la brecha de habilidades preexistentes**. La educación formal en pensamiento crítico, en todos los niveles académicos, emerge como la única salvaguarda para evitar la alienación cognitiva y la distribución desigual de la capacidad analítica en la sociedad contemporánea.
+Este desplazamiento del esfuerzo (de la generación a la curaduría) es la base sobre la que se construyen las Fases 2 y 3 (impacto en la modalidad de entrada/salida) y la discusión de equidad e implicaciones sociológicas que cierra la investigación en la Fase 4 — ahí se retoma con el detalle y la contraevidencia que el argumento requiere, en vez de repetirlo acá de forma abreviada.
