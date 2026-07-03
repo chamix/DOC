@@ -39,9 +39,7 @@ Esta lectura conciliadora no debe tomarse como definitiva: el hallazgo de Kosmyn
 
 **Nota metodológica:** la matriz que sigue es un modelo heurístico propuesto por el autor a partir de la observación de su propia práctica profesional, no un hallazgo psicométrico medido en estudio alguno. Los rangos de turnos ($T$) no provienen de ninguna de las fuentes citadas en `_fuentes.md` — se presentan como hipótesis de trabajo, útil para pensar el fenómeno, pendiente de validación empírica (por ejemplo, contando turnos reales en un log de conversaciones propio antes de publicarla con esta forma).
 
-Para formalizar y predecir el comportamiento del bucle de co-pensamiento, se establece la siguiente relación entre la complejidad de la tarea y los turnos de iteración necesarios ($T$), definidos bajo el ciclo completo: $	ext{Prompt (Humano)} 
-ightarrow 	ext{Output (IA)} 
-ightarrow 	ext{Evaluación/Refinamiento (Humano)}$.
+Para formalizar y predecir el comportamiento del bucle de co-pensamiento, se establece la siguiente relación entre la complejidad de la tarea y los turnos de iteración necesarios ($T$), definidos bajo el ciclo completo: **Prompt (Humano) → Output (IA) → Evaluación/Refinamiento (Humano)**.
 
 | Nivel de Complejidad de la Idea | Tipo de Procesamiento Cognitivo | Rango de Turnos ($T$) | Rol Funcional del Usuario | Dinámica de Lectoescritura Relativa |
 | :--- | :--- | :--- | :--- | :--- |
