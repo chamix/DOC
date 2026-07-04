@@ -5,6 +5,16 @@ publishDate: 2026-07-04
 tags: ["ai", "genai", "opinion"]
 series: "La Mutación Epistemológica de la Interacción Humano-IA"
 seriesPart: 1
+layout: medium-editorial.njk
+---
+
+![Una notebook con la pantalla en blanco, sola en medio de un desierto al amanecer, con huellas de pisadas que se detienen frente a ella](./img/ART-004-header.png)
+
+# Escribo más que nunca desde que uso IA. Y no es un error.
+### La paradoja detrás del co-pensamiento con modelos de lenguaje: por qué la promesa de 'escribir menos' resultó ser exactamente al revés.
+
+*por Camilo — Julio 4 2026 · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
+
 ---
 
 Son las once de la noche y llevo cuarenta minutos escribiendo. No estoy redactando un informe desde cero: estoy conversando con un modelo de lenguaje sobre la arquitectura de un proyecto personal. Y en algún momento, sin buscarlo, me doy cuenta de algo raro: llevo más texto tipeado esta noche que en una sesión equivalente de hace tres años, cuando escribía todo yo, sin ayuda de nadie.

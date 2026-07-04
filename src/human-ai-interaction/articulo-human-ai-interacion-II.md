@@ -5,6 +5,16 @@ publishDate: 2026-07-04
 tags: ["ai", "genai", "opinion"]
 series: "La Mutación Epistemológica de la Interacción Humano-IA"
 seriesPart: 2
+layout: medium-editorial.njk
+---
+
+![Una zapatilla de running suspendida en el aire sobre un sendero de montaña, dejando atrás una estela de cables y ondas de sonido enredadas en vez de polvo](./img/ART-005-header.png)
+
+# Le dicté el feedback por voz a la IA. Tardé el triple en arreglarlo.
+### Por qué la voz, que promete aliviar la fatiga de tipear con la IA, termina generando más trabajo del que ahorra en tareas de co-pensamiento complejo.
+
+*por Camilo — Julio 4 2026 · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
+
 ---
 
 Corro varias horas por semana, y no suelo llevar el celular encima mientras entreno. Una de esas veces se me ocurrió, a mitad de carrera, cómo reestructurar un módulo en el que veníamos trabajando. Para no perder la idea, apenas terminé y pude agarrar el teléfono, se la dicté por voz a mi asistente de IA. "Che, esto que armamos antes, cambiale la parte de arriba, no la de abajo, para que quede como lo otro que habíamos visto pero sin el problema que tenía." Algo así. Fluido, natural, dicho en quince segundos.

@@ -5,6 +5,16 @@ publishDate: 2026-07-04
 tags: ["ai", "genai", "opinion"]
 series: "La Mutación Epistemológica de la Interacción Humano-IA"
 seriesPart: 3
+layout: medium-editorial.njk
+---
+
+![Unos auriculares apoyados sobre un mapa de papel abierto en un peñasco flotando sobre un mar de nubes, con los bordes del mapa disolviéndose en ondas de sonido](./img/ART-006-header.png)
+
+# Multitasking con IA: mismo curro de siempre, plot twist nuevo.
+### La falacia de la multitarea aplicada a la inteligencia artificial: por qué escuchar en vez de leer te hace perder justo lo que fuiste a buscar.
+
+*por Camilo — Julio 4 2026 · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
+
 ---
 
 La multitarea es el curro más efectivo que nos vendimos a nosotros mismos en los últimos veinte años — y la IA nos acaba de dar una excusa nueva para seguir cayendo. Confesión incómoda: la semana pasada corrí diez kilómetros escuchando el resumen en audio de una propuesta de arquitectura completa. "Aprovecho el tiempo", pensé. Terminé la carrera con buen ritmo y sin acordarme de una sola de las cuatro conclusiones del informe. Ni una. Volví a casa y lo tuve que leer. De cero.

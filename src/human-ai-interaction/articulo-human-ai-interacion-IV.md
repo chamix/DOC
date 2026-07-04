@@ -5,6 +5,16 @@ publishDate: 2026-07-04
 tags: ["ai", "genai", "opinion"]
 series: "La Mutación Epistemológica de la Interacción Humano-IA"
 seriesPart: 4
+layout: medium-editorial.njk
+---
+
+![Una caja de texto rectangular e iluminada flotando sobre un tablero infinito tipo ajedrez, rodeada de bloques geométricos simples hundidos a medio construir](./img/ART-007-header.png)
+
+# Lo que aprendí escribiendo, dictando y escuchando con IA — y lo que todavía no sé
+### Cierre de la serie: qué deberían hacer las interfaces de IA con todo lo que aprendimos sobre escribir, dictar y escuchar — y la pregunta incómoda que queda abierta.
+
+*por Camilo — Julio 4 2026 · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
+
 ---
 
 Si venís siguiendo esta serie, ya tenés tres piezas del mismo rompecabezas. Escribís más, no menos, cuando pensás en serio con una IA (Parte 1). Dictarle por voz el feedback fino no te ahorra tiempo, te lo cuadruplica (Parte 2). Y escuchar sus respuestas mientras hacés otra cosa es la ilusión de aprovechar el tiempo, no el hecho (Parte 3).
@@ -43,6 +53,6 @@ Arranqué esta investigación por una razón simple: notar que estaba escribiend
 
 Si te queda una sola idea de las cuatro partes, que sea esta: la próxima vez que sientas la tentación de dictarle algo complejo a tu asistente de IA para "ahorrar tiempo", o de escuchar su resumen mientras hacés otra cosa para "aprovechar el momento" — pará un segundo. Puede que la fricción que estás tratando de evitar sea, justamente, la parte del proceso que te está haciendo pensar mejor.
 
-Esta serie nació de una investigación bastante más larga y más formal de lo que cabía en cuatro artículos de blog — con fuentes, con una auditoría completa de qué citas se sostenían y cuáles no, con contraevidencia incluida en los lugares donde mi propia hipótesis quedaba más floja. La dejé publicada sin editar, notas de proceso incluidas, en mi repositorio: [la investigación completa está acá](https://github.com/chamix/DOC/blob/main/src/human-ai-interaction/research/_investigacion-unificada.md). No es un paper para citar en ningún lado — fue, ante todo, un ejercicio para entrenar el músculo de pensar un problema hasta el fondo. Si te sirve para lo mismo, lo hizo su trabajo.
+Esta serie nació de una investigación bastante más larga y más formal de lo que cabía en cuatro artículos de blog — con fuentes, con una auditoría completa de qué citas se sostenían y cuáles no, con contraevidencia incluida en los lugares donde mi propia hipótesis quedaba más floja. La dejé publicada sin editar, notas de proceso incluidas, en mi repositorio: [la investigación completa está acá](https://github.com/chamix/DOC/blob/main/src/human-ai-interaction/research/_investigacion-unificada.md). No es un paper para citar en ningún lado — fue, ante todo, un ejercicio para entrenar el músculo de pensar un problema hasta el fondo. Si te sirve para lo mismo, hizo su trabajo.
 
 Gracias por llegar hasta acá.
