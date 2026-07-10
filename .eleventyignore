@@ -6,3 +6,6 @@ README.MD
 
 # Ignore entire folders if you create archived drafts later
 **/drafts/
+
+# Ignore presentations folder
+src/presentations/
