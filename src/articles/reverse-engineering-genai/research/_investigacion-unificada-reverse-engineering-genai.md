@@ -234,11 +234,3 @@ La Ingeniería Inversa, como disciplina formalmente definida en 1990, no necesit
 13. Jana, P., Davidson, S., Bhasker, B., Kan, A., Deoras, A., Callot, L. (2026). "TerraFormer: Automated Infrastructure-as-Code with LLMs Fine-Tuned via Policy-Guided Verifier Feedback." ICSE-SEIP '26. arXiv:2601.08734. https://doi.org/10.1145/3786583.3786898
 14. "Reverse Engineering Existing Cloud Infrastructure into Terraform." dev.to (febrero 2026). https://dev.to/slaughter/reverse-engineering-existing-cloud-infrastructure-into-terraform-3e3m
 15. "Working with Terraform: Where LLMs actually help." dev.to (abril 2026). https://dev.to/polarsquad/working-with-terraform-where-llms-actually-help-2a4p
-
----
-
-## Próximos pasos sugeridos
-
-1. **Banco de conceptos** para la pieza narrativa Mixed derivada de este pseudo-paper: candidatos fuertes son (a) la distinción Nivel 1/2/3 de la Sección 6 como columna vertebral, (b) el contraste "la práctica ya lo llama RE, la academia todavía no" (Sección 4.2) como gancho de apertura, y (c) el caso ilustrativo (Sección 1.1, retomado en la Sección 5) como ancla narrativa recurrente sin desarrollar la psicología de confianza.
-2. **Decisión pendiente de estructura**: ¿la pieza narrativa mantiene formato "paper adaptado" (como se hizo posible con la serie de Mutación Epistemológica) o se resuelve en un único artículo largo? Dado que este documento no se dividió en sub-preguntas tan naturalmente separables como la serie anterior, un único artículo extenso parece más orgánico — a confirmar.
-3. Este documento queda como fuente única y cerrada para la pieza de RE. Cualquier extensión sobre confianza calibrada / HITL se retoma exclusivamente en la conversación futura dedicada a "El 2% que importa".
