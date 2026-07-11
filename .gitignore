@@ -2,10 +2,6 @@
 # DOCS-AS-CODE WORKFLOW GUARDRAILS
 # ==============================================================================
 
-# Excluir directorios de imágenes en todo el árbol de carpetas de forma recursiva
-# para evitar el almacenamiento de archivos binarios pesados en el historial de Git.
-**/imgs/
-
 # Excluir las dependencias locales de Node.js instaladas para la automatización
 # y compilación del entorno del proyecto (ej. Eleventy, rimraf).
 node_modules/
@@ -20,3 +16,6 @@ scripts/publish-to-blog.js
 
 # Excluir la carpeta de configuracion del proyecto Technical Writer en claude.ia.
 _claude.ia-technical-writer/
+
+# Excluir los archivos de notas de desarrollo local que no tienen sentido versionar.
+_notes-*-local.md
