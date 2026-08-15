@@ -1,6 +1,21 @@
-# Cuando la herramienta deja de sugerir y empieza a actuar
+---
+title: "Cuando la herramienta deja de sugerir y empieza a actuar"
+description: "Cierre de la serie: qué es técnicamente un agente, los patrones que le dan forma, el protocolo que los interconecta, y los riesgos de gobernanza que ya están documentados."
+publishDate: 2026-XX-XX
+tags: ["ai", "genai", "architecture", "explainer"]
+series: "No todas las IA son lo mismo"
+seriesPart: 3
+layout: medium-editorial.njk
+---
 
-*Parte 3 de 3 — "No todas las IA son lo mismo"*
+![Un auto de juguete a cuerda, sin la llave puesta, recorriendo solo una mini ciudad futurista nocturna iluminada de neón, dejando una estela de luz que conecta con otros autos idénticos estacionados](./img/no-todas-las-ia-son-lo-mismo-parte-3-header.webp)
+
+# Cuando la herramienta deja de sugerir y empieza a actuar
+### Cierre de la serie: qué es técnicamente un agente, los patrones que le dan forma, el protocolo que los interconecta, y los riesgos de gobernanza que ya están documentados.
+
+*por Camilo — [fecha de publicación] · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
+
+---
 
 La Parte 2 de esta serie terminó con una pregunta pendiente: ¿qué cambia cuando una herramienta deja de sugerir y empieza a actuar por su cuenta? Ya vimos la diferencia entre un chatbot (gestiona una conversación) y un copiloto (te asiste dentro de un flujo de trabajo, pero vos aprobás cada acción). Lo que queda del otro lado de esa frontera tiene nombre propio, y es el tema que cierra esta serie: agentic AI, sistemas agénticos, o simplemente "agentes" — el término que, sospecho, es de los que más rebotan sin definición precisa en esas reuniones que mencionábamos al principio de la serie.
 

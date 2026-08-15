@@ -1,6 +1,22 @@
-# De Dartmouth a ChatGPT: 66 años para llegar a una máquina que supiera charlar
+---
+title: "De Dartmouth a ChatGPT: 66 años para llegar a una máquina que supiera charlar"
+description: "66 años de historia, dos inviernos de fracaso público y la convergencia final de cuatro piezas dispersas: cómo llegamos, en 2022, a una máquina que por fin supo conversar."
+publishDate: 2026-XX-XX
+tags: ["ai", "genai", "explainer"]
+series: "No todas las IA son lo mismo"
+seriesPart: 1
+layout: medium-editorial.njk
 
-*Parte 1 de 3 — "No todas las IA son lo mismo"*
+---
+
+![Un robot de juguete vintage parado en un prado soleado, con el pecho abierto del que florece una flor con pétalos veteados de líneas de circuito brillante](./img/no-todas-las-ia-son-lo-mismo-parte-1-header.webp)
+
+# De Dartmouth a ChatGPT: 66 años para llegar a una máquina que supiera charlar
+### 66 años de historia, dos inviernos de fracaso público y la convergencia final de cuatro piezas dispersas: cómo llegamos, en 2022, a una máquina que por fin supo conversar.
+
+*por Camilo — [fecha de publicación] · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
+
+---
 
 Últimamente no hay reunión de trabajo que no termine mencionando "agentes", "tokens", "LLMs". Términos que manejamos con soltura —yo incluido— sin poder siempre explicar con precisión qué son ni cómo se relacionan entre sí. Se han vuelto vocabulario de oficina tan rápido que dimos por sentado que los entendíamos, cuando en realidad los estamos usando como sinónimos de algo mucho más amplio: "la IA", así, en singular y sin matices.
 

@@ -1,6 +1,21 @@
-# No es el modelo, es lo que le construís alrededor
+---
+title: "No es el modelo, es lo que le construís alrededor"
+description: "Qué es realmente un LLM, por qué un modelo no es lo mismo que la herramienta que lo envuelve, y qué estás pagando en realidad cuando pagás por token."
+publishDate: 2026-XX-XX
+tags: ["ai", "genai", "explainer"]
+series: "No todas las IA son lo mismo"
+seriesPart: 2
+layout: medium-editorial.njk
+---
 
-*Parte 2 de 3 — "No todas las IA son lo mismo"*
+![Una máquina expendedora de juguete vacía por dentro, con fichas doradas cayendo en espiral por una rampa hacia la salida, bajo luz cálida](./img/no-todas-las-ia-son-lo-mismo-parte-2-header.webp)
+
+# No es el modelo, es lo que le construís alrededor
+### Qué es realmente un LLM, por qué un modelo no es lo mismo que la herramienta que lo envuelve, y qué estás pagando en realidad cuando pagás por token.
+
+*por Camilo — [fecha de publicación] · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
+
+---
 
 La Parte 1 de esta serie terminó con una distancia sin resolver: la que hay entre "inteligencia artificial" —un campo con 66 años de historia— y "ChatGPT" —una aplicación puntual, con fecha de nacimiento exacta, de una técnica bastante más específica. Esa distancia es precisamente donde vive la confusión que dio origen a toda esta serie. Y hay uno de esos términos que vale la pena resolver de entrada, porque es el ejemplo perfecto del problema: "tokens" era una de las palabras que mencionábamos al principio, y el costo por token es, probablemente, la forma más concreta en la que te la cruzás en el día a día. Yo tampoco podría haber explicado con precisión qué es un token, ni por qué tiene un costo, ni por qué ese costo es distinto según quién lo genera.
 
