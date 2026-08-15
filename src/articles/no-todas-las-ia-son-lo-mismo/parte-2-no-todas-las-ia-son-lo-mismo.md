@@ -2,7 +2,7 @@
 
 *Parte 2 de 3 — "No todas las IA son lo mismo"*
 
-La Parte 1 de esta serie terminó con una distancia sin resolver: la que hay entre "inteligencia artificial" —un campo con 66 años de historia— y "ChatGPT" —una aplicación puntual, con fecha de nacimiento exacta, de una técnica bastante más específica. Esa distancia es precisamente donde vive la confusión que dio origen a toda esta serie. Y hay un detalle de mi propia nota original que quiero resolver acá, porque es el ejemplo perfecto del problema: en esa reunión que menciono, alguien habló del "costo por token" de los agentes. Yo asentí. No podría haber explicado con precisión qué es un token, ni por qué tiene un costo, ni por qué ese costo es distinto según quién lo genera.
+La Parte 1 de esta serie terminó con una distancia sin resolver: la que hay entre "inteligencia artificial" —un campo con 66 años de historia— y "ChatGPT" —una aplicación puntual, con fecha de nacimiento exacta, de una técnica bastante más específica. Esa distancia es precisamente donde vive la confusión que dio origen a toda esta serie. Y hay uno de esos términos que vale la pena resolver de entrada, porque es el ejemplo perfecto del problema: "tokens" era una de las palabras que mencionábamos al principio, y el costo por token es, probablemente, la forma más concreta en la que te la cruzás en el día a día. Yo tampoco podría haber explicado con precisión qué es un token, ni por qué tiene un costo, ni por qué ese costo es distinto según quién lo genera.
 
 Vamos a resolver eso. Pero para llegar ahí con solidez, primero hay que entender qué es, en términos concretos y no metafóricos, un modelo de lenguaje.
 
@@ -26,7 +26,7 @@ En la Parte 1 dejamos un cabo suelto a propósito: GPT-3 existía desde 2020, ya
 
 Acá aparece una distinción técnica que vale la pena tener siempre a mano: la diferencia entre un modelo base (o modelo fundacional) y un modelo *instruction-tuned* (afinado para seguir instrucciones). Un modelo base es el resultado directo del entrenamiento masivo que describimos arriba: sabe completar texto con una fluidez notable, pero no tiene ningún concepto de "pregunta" o "respuesta". Si le escribís "¿Cuál es la capital de Francia?", un modelo base puro no necesariamente te responde "París" — puede, con la misma probabilidad, continuar la oración con otra pregunta parecida, porque en sus datos de entrenamiento eso también es un patrón frecuente (listas de preguntas de geografía, por ejemplo). El modelo no está "equivocándose": está haciendo exactamente lo que fue entrenado para hacer, completar texto de forma estadísticamente plausible.
 
-Convertir ese modelo base en algo que responda preguntas, seguido instrucciones y mantenga una conversación coherente requiere una etapa posterior de ajuste. Ahí es donde entra el RLHF que mencionamos al cerrar la Parte 1: el modelo se afina con ejemplos de conversaciones reales, evaluadas y corregidas por personas, hasta que aprende a comportarse como un asistente y no como un generador de texto libre. El resultado de ese proceso es lo que hoy llamamos un modelo *instruct* o *chat* — y es, casi siempre, el que efectivamente usás cuando hablás con cualquier asistente de IA.
+Convertir ese modelo base en algo que responda preguntas, siga instrucciones y mantenga una conversación coherente requiere una etapa posterior de ajuste. Ahí es donde entra el RLHF que mencionamos al cerrar la Parte 1: el modelo se afina con ejemplos de conversaciones reales, evaluadas y corregidas por personas, hasta que aprende a comportarse como un asistente y no como un generador de texto libre. El resultado de ese proceso es lo que hoy llamamos un modelo *instruct* o *chat* — y es, casi siempre, el que efectivamente usás cuando hablás con cualquier asistente de IA.
 
 Esta distinción no es un tecnicismo de laboratorio. Explica, por ejemplo, por qué algunas empresas ofrecen acceso tanto al modelo base como al modelo afinado de una misma familia: el modelo base, pese a ser "menos usable" en una conversación, a veces retiene capacidades de razonamiento puro que el ajuste posterior puede, en ciertas tareas, diluir levemente. Son herramientas distintas para problemas distintos, aunque compartan el mismo origen.
 
@@ -58,7 +58,7 @@ Esto tiene una implicación muy concreta para cualquier decisión de arquitectur
 
 Así que la próxima vez que alguien mencione el costo por token en una reunión, ya tenés la respuesta completa: no es una tarifa plana, es entrada más salida a precios distintos, con la salida bastante más cara, y con el historial completo de la conversación reenviándose en cada turno como parte de esa entrada.
 
-## Chatbot, copilot, y la frontera que dejamos para después
+## Chatbot, copiloto, y la frontera que dejamos para después
 
 Ya tenemos modelo, tenemos wrapper, tenemos costo. Falta ubicar, dentro de ese mapa, las categorías de producto que probablemente usás todos los días.
 

@@ -2,7 +2,7 @@
 
 *Parte 3 de 3 — "No todas las IA son lo mismo"*
 
-La Parte 2 de esta serie terminó con una pregunta pendiente: ¿qué cambia cuando una herramienta deja de sugerir y empieza a actuar por su cuenta? Ya vimos la diferencia entre un chatbot (gestiona una conversación) y un copiloto (te asiste dentro de un flujo de trabajo, pero vos aprobás cada acción). Lo que queda del otro lado de esa frontera tiene nombre propio, y es el tema que cierra esta serie: agentic AI, sistemas agénticos, o simplemente "agentes" — el término que, sospecho, fue el que más rebotó en esa reunión que nos trajo hasta acá.
+La Parte 2 de esta serie terminó con una pregunta pendiente: ¿qué cambia cuando una herramienta deja de sugerir y empieza a actuar por su cuenta? Ya vimos la diferencia entre un chatbot (gestiona una conversación) y un copiloto (te asiste dentro de un flujo de trabajo, pero vos aprobás cada acción). Lo que queda del otro lado de esa frontera tiene nombre propio, y es el tema que cierra esta serie: agentic AI, sistemas agénticos, o simplemente "agentes" — el término que, sospecho, es de los que más rebotan sin definición precisa en esas reuniones que mencionábamos al principio de la serie.
 
 ## Qué es, técnicamente, un agente
 
@@ -26,7 +26,7 @@ Hay un problema práctico que aparece apenas empezás a combinar estos patrones:
 
 En noviembre de 2024, Anthropic publicó una respuesta a ese problema: el Model Context Protocol (MCP), un estándar abierto para que cualquier agente se conecte a cualquier herramienta o fuente de datos a través de un mismo protocolo, en vez de una integración artesanal por cada par. La propia Anthropic usa una analogía que resulta bastante precisa: MCP funciona como el puerto USB-C de las aplicaciones de IA — un solo conector físico que sirve para cualquier dispositivo, en vez de un cable distinto para cada marca. Con MCP, la cuenta deja de ser N por M y pasa a ser N más M: cada agente implementa el protocolo una vez, cada herramienta lo expone una vez, y a partir de ahí cualquier combinación funciona sin trabajo adicional.
 
-Lo interesante —y esto es un hecho verificable, no una proyección— es que competidores directos de Anthropic en el desarrollo de modelos, como OpenAI, Microsoft y Google DeepMind, adoptaron el mismo protocolo en sus propias herramientas. Cuando una pieza de infraestructura logra que empresas que compiten entre sí en casi todo lo demás coincidan en usarla, generalmente es una señal de que resolvió un problema real y no solo el problema de quien la publicó. MCP es, hoy, la respuesta más concreta que existe a la pregunta con la que arrancó esta serie hace tres partes: cómo se interconectan entre sí todos estos conceptos que empezamos a desglosar.
+Lo interesante —y esto es un hecho verificable, no una proyección— es que competidores directos de Anthropic en el desarrollo de modelos, como OpenAI, Microsoft y Google DeepMind, adoptaron el mismo protocolo en sus propias herramientas. Cuando una pieza de infraestructura logra que empresas que compiten entre sí en casi todo lo demás coincidan en usarla, generalmente es una señal de que resolvió un problema real y no solo el problema de quien la publicó. MCP es, hoy, la respuesta más concreta que existe a la pregunta con la que arrancó esta serie: cómo se interconectan entre sí todos estos conceptos que empezamos a desglosar.
 
 ## La cara B: lo que ya está saliendo mal
 
