@@ -7,9 +7,9 @@
  * de la serie "md-view: la historia", listo para subir a cada conversación.
  *
  * Uso:
- *   node split-agent-logs.js --source <carpeta-con-RUN_LOG/DEVLOG/specs> --out <carpeta-destino>
+ *   node split-agent-logs.js --source <carpeta-con-RUN_LOG/DEVLOG/specs> --out <carpeta-destino> --handoff <ruta-a-la-nota-de-handoff.md>
  *
- * Por defecto: --source .  --out ./research-split
+ * Por defecto: --source .  --out ./research-split  (sin --handoff, ese bundle queda marcado como pendiente)
  *
  * Espera encontrar, dentro de --source:
  *   metrics/RUN_LOG.md
@@ -41,12 +41,15 @@ function getArg(flag, def) {
 const SRC = getArg('--source', '.');
 const OUT = getArg('--out', './research-split');
 
+const HANDOFF = getArg('--handoff', null);
+
 const PATHS = {
   runLog: path.join(SRC, 'metrics', 'RUN_LOG.md'),
   devLog: path.join(SRC, 'DEVLOG.md'),
   reviewDir: path.join(SRC, 'specs'),
   adrDir: path.join(SRC, 'specs', 'decisions'),
   backlog: path.join(SRC, 'specs', 'backlog.md'),
+  handoff: HANDOFF,
   outRaw: path.join(OUT, 'raw'),
   outPosts: path.join(OUT, 'posts'),
 };
@@ -60,6 +63,7 @@ const POST_MAP = [
     devlogMatches: [],
     adrs: [],
     includeBacklog: false,
+    includeHandoff: true, // handoff §1, §4 — génesis y Task 4
   },
   {
     n: 2, slug: 'post-2-reviewer-bash',
@@ -95,6 +99,7 @@ const POST_MAP = [
     devlogMatches: [],
     adrs: [],
     includeBacklog: true, // entrada [Resolved 2026-08-15] sobre icon.ico
+    includeHandoff: true, // handoff §4 — última sección, el episodio de Task 35
   },
 ];
 
@@ -287,6 +292,16 @@ function buildPostBundles(runLogIndex, devLogIndex) {
     if (post.includeBacklog && fs.existsSync(PATHS.backlog)) {
       fs.copyFileSync(PATHS.backlog, path.join(dir, 'backlog.md'));
       manifest.push('- [x] backlog.md (completo)');
+    }
+
+    if (post.includeHandoff) {
+      if (PATHS.handoff && fs.existsSync(PATHS.handoff)) {
+        const destName = path.basename(PATHS.handoff);
+        fs.copyFileSync(PATHS.handoff, path.join(dir, destName));
+        manifest.push(`- [x] ${destName}`);
+      } else {
+        manifest.push('- [ ] ⚠️ nota de handoff: no se pasó --handoff <ruta> o el archivo no existe — copiarla a mano');
+      }
     }
 
     fs.writeFileSync(path.join(dir, '_manifest.md'), manifest.join('\n') + '\n');
