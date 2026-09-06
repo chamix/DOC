@@ -9,3 +9,6 @@ README.MD
 
 # Ignore presentations folder
 src/presentations/
+
+# Ignore agent logs split toolkit output
+scripts/agent-logs-split-toolkit/
