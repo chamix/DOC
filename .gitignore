@@ -13,6 +13,8 @@ node_modules/
 # Script local para publicar artículos en el repo del blog (Astro), depende
 # de una ruta de repositorio local que no tiene sentido versionar.
 scripts/publish-to-blog.js
+scripts/agent-logs-split-toolkit/posts/
+scripts/agent-logs-split-toolkit/raw/
 
 # Excluir la carpeta de configuracion del proyecto Technical Writer en claude.ia.
 _claude.ia-technical-writer/
