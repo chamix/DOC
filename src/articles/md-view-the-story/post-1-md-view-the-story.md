@@ -8,6 +8,8 @@ series: "md-view app: de 0 a release con agentic AI"
 seriesPart: 1
 ---
 
+![Tres ingenieros de dibujos animados reparan un auto de Fórmula 1 hecho de golosinas.](./img/post-1-md-view-the-story.webp)
+
 ### Cómo un sistema de agentes de IA construido para vigilarse a sí mismo falló dos veces antes de escribir una sola línea de producto — y por qué un test en verde no alcanzó para probar nada.
 
 *por Camilo — [fecha] · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
