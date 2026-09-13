@@ -71,6 +71,7 @@ const POST_MAP = [
     devlogMatches: ['task-14'],
     adrs: [],
     includeBacklog: false,
+    includeHandoff: true, // handoff §7 — ángulo original del incidente
   },
   {
     n: 3, slug: 'post-3-tentacion-de-apurar',
@@ -78,6 +79,7 @@ const POST_MAP = [
     devlogMatches: ['tentacion-de-apurar'],
     adrs: [],
     includeBacklog: false,
+    includeHandoff: true, // handoff §7 — ángulo original del near-miss
   },
   {
     n: 4, slug: 'post-4-bug-nueve-revisiones',
@@ -85,6 +87,7 @@ const POST_MAP = [
     devlogMatches: ['task-24', 'task-25'],
     adrs: [],
     includeBacklog: false,
+    includeHandoff: true, // handoff §7 — ángulo original del bug
   },
   {
     n: 5, slug: 'post-5-un-flag-tres-regresiones',
@@ -92,6 +95,7 @@ const POST_MAP = [
     devlogMatches: ['task-29', 'task-30', 'task-31'],
     adrs: ['ADR-005'],
     includeBacklog: false,
+    includeHandoff: true, // handoff §7 — ángulo original de la cascada de regresiones
   },
   {
     n: 6, slug: 'post-6-cierre-checker-necesita-revision',
