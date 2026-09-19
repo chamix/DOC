@@ -1,16 +1,18 @@
 ---
 title: "El bug que sobrevivió nueve revisiones de código"
 description: "Nueve tareas, nueve revisiones aprobadas, y una carpeta que a nadie se le ocurrió soltar."
-publishDate: 2026-XX-XX
+publishDate: 2026-09-19
 tags: [ai, genai, architecture, case-study]
 layout: medium-editorial.njk
 series: "md-view app: de 0 a release con agentic AI"
 seriesPart: 4
 ---
 
+![Ilustración de juguete de nueve búhos sellando 'OK' en una cinta transportadora, mientras un zorro descubre una puerta cuadrada cubierta de polvo, nunca usada.](./img/post-4-md-view-the-story.webp)
+
 ### Nueve tareas, nueve revisiones aprobadas, y una carpeta que a nadie se le ocurrió soltar.
 
-*por Camilo — [fecha] · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
+*por Camilo — 19 de septiembre de 2026 · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
 
 Con el modo oscuro activado, el code-reviewer pasa el mouse sobre la fila resaltada del panel lateral de md-view. No está leyendo el CSS. Está leyendo lo que la aplicación real, ya compilada, efectivamente pinta en pantalla en ese pixel — `getComputedStyle()`, ejecutado contra el build empaquetado, no contra la intención del código.
 
@@ -18,7 +20,7 @@ Si venís siguiendo esta serie, ya conocés al elenco: el Lead, el full-stack-en
 
 ## Cuando el proceso se pone a prueba a sí mismo
 
-La Task 24 cerraba un arco de tres partes: el panel lateral de archivos, que había arrancado como un árbol perezoso con caché (Task 21) y sumado resize por arrastre (Task 23), ahora también debía expandirse automáticamente y resaltar el archivo activo cada vez que cambiara. Un detalle de UX, en apariencia menor.
+La Task 24 cerraba un arco de tres partes: el panel lateral de archivos, que había arrancado como un árbol lazy con caché (Task 21) y sumado resize por arrastre (Task 23), ahora también debía expandirse automáticamente y resaltar el archivo activo cada vez que cambiara. Un detalle de UX, en apariencia menor.
 
 La especificación, aprobada por el Lead antes de delegar el trabajo, era explícita en un punto: la fila resaltada necesitaba su propia regla de `dark-mode`, siguiendo la misma convención que ya usaba cada otro selector del panel. El engineer que implementó la feature decidió que no hacía falta — un solo acento en rgba, razonó, "se lee bien en los dos temas" — y lo dejó anotado como una desviación consciente, no oculta.
 
@@ -30,7 +32,7 @@ Es, en pocas palabras, el principio del proyecto funcionando exactamente como es
 
 ## La carpeta que nadie soltó
 
-Una tarea después, el mismo tipo de verificación empírica — pero esta vez hecha por Camilo, no por un reviewer, y sobre el build empaquetado, no sobre el código — encuentra algo mucho más incómodo.
+Una tarea después, el mismo tipo de verificación empírica — pero esta vez hecha por mí, no por un reviewer, y sobre el build empaquetado, no sobre el código — encuentra algo mucho más incómodo.
 
 md-view permite arrastrar un archivo Markdown a la ventana para abrirlo. Ese comportamiento — junto con el click en el panel lateral — pasa por un único punto de entrada compartido: el listener `REQUEST_OPEN_FILE`. Arrastrar una *carpeta*, en cambio, entraba por el mismo camino y terminaba en el mismo lugar que un archivo inválido: un mensaje de error, "no es un archivo Markdown". Lo llamativo no es que fallara — es que ya existía, desde hacía varias tareas, una función que sabía exactamente qué hacer con una carpeta (`establishTreeRoot`, la misma que usa el menú "Open Folder…"). El listener simplemente nunca le preguntaba al sistema operativo qué tipo de cosa acababa de recibir antes de decidir qué hacer con ella.
 
@@ -49,3 +51,5 @@ La Task 24 es un caso de verificación: alguien afirmó algo ("esto se ve bien e
 La Task 25 es un caso distinto: nadie afirmó nada falso. El spec, el código y el suite de tests eran, cada uno por separado, internamente consistentes y correctos respecto de lo que decían cubrir. El agujero no estaba en ningún afirmación que alguien hubiera hecho — estaba en una pregunta que nadie había hecho todavía. Revisar con más cuidado el mismo código, contra el mismo suite, no iba a encontrar eso. Hacía falta alguien usando la aplicación empaquetada de una forma que el diseño original de las pruebas nunca imaginó.
 
 Nueve revisiones en verde no significan "no hay bugs". Significan "no hay bugs de los que sabíamos preguntar". Es una garantía real — y su límite es exactamente ese: los tests son tan buenos como las preguntas que alguien pensó en escribir. La disciplina de proceso reduce muchísimo el primer tipo de riesgo. El segundo tipo solo se reduce ampliando, de tanto en tanto, quién prueba qué y cómo — alguien arrastrando algo raro a una ventana real, en vez de confiar en que el catálogo de fixtures ya vio todo lo que hacía falta ver.
+
+Y esto no es una particularidad de que acá quien revise sea, en parte, un agente de IA. Da lo mismo si el código lo escribe una persona, un agente generativo, o —como en este proyecto— un híbrido de ambos: los fundamentos no cambiaron. La misma experiencia y las mismas bases que hacían falta antes de que existiera un LLM siguen haciendo falta ahora, y siguen encontrando lo mismo de siempre — cosas que solo aparecen iterando, rompiendo el camino que el diseño original ya había trazado. Vale para una app de escritorio como esta, y vale igual para infraestructura o para cualquier automatización que dependa de software. Cambió quién escribe la línea y quién corre el test. No cambió la necesidad de que, cada tanto, alguien se salga del camino establecido.
