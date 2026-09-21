@@ -1,16 +1,18 @@
 ---
 title: "Un flag, tres regresiones"
 description: "Una decisión de arquitectura prolijamente documentada invalidó en silencio dos features que no tenían nada que ver entre sí — y encontrarlo a tiempo no fue cuestión de suerte."
-publishDate: 2026-XX-XX
+publishDate: 2026-09-20
 tags: ["ai", "genai", "architecture", "case-study"]
 layout: medium-editorial.njk
 series: "md-view app: de 0 a release con agentic AI"
 seriesPart: 5
 ---
 
+![Auto de juguete frente a un semáforo en verde; la calle detrás se vuelve gris y agrietada.](./img/post-5-md-view-the-story.webp)
+
 ### Una decisión de arquitectura prolijamente documentada invalidó en silencio dos features que no tenían nada que ver entre sí — y encontrarlo a tiempo no fue cuestión de suerte.
 
-*por Camilo — 2026-XX-XX · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
+*por Camilo — 2026-09-20 · [LinkedIn](https://www.linkedin.com/in/ernestocamilovera/)*
 
 ## Una línea de código, dos decisiones cuidadas
 
