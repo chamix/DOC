@@ -1,14 +1,14 @@
 ---
 title: "Un agente no es un chat con más paciencia"
 description: "Subagentes, Skills, MCP, hooks y calibración de modelo: cómo Claude convierte un LLM que predice el siguiente token en algo que percibe, decide y actúa — pieza por pieza."
-publishDate: 2026-XX-XX
+publishDate: 2026-10-12
 tags: ["ai", "agentes", "genai", "architecture"]
-series: "¡Agentes, Agentes, Agentes!"
+series: "agents-in-deep!"
 seriesPart: 2
 layout: medium-editorial.njk
 ---
 
-![Un taller de relojero en miniatura donde varios engranajes de distinto tamaño —algunos enormes, otros diminutos— encajan entre sí para mover una sola aguja, estilo toy-illustration 3D](./img/agentes-agentes-agentes_post-2.webp)
+![Un técnico ensamblando un complejo sistema de relojería con componentes electrónicos, mientras varias personas lo observan y evalúan en un laboratorio muy iluminado](./img/un-agente-no-es-un-chat-con-mas-paciencia_post-2.webp)
 
 ### Subagentes, Skills, MCP, hooks y calibración de modelo: cómo Claude convierte un LLM que predice el siguiente token en algo que percibe, decide y actúa — pieza por pieza.
 
