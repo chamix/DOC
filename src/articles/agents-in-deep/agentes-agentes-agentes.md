@@ -28,11 +28,11 @@ Septiembre de 2000. Steve Ballmer, recién asumido como CEO de Microsoft, sube a
   allowfullscreen>
 </iframe>
 
-Minutos antes había planteado "la pregunta de los 64.000 dólares" — un modismo tomado de un concurso televisivo de los años 50, sinónimo de "la pregunta que todos se están haciendo" — para introducir el tema que de verdad le importaba: la estrategia .NET, la gran apuesta de Microsoft por atraer desarrolladores externos.
+Minutos antes había planteado "la pregunta de los 64.000 dólares" — un modismo tomado de un concurso televisivo de los años 50, sinónimo de "la pregunta del millón" — para introducir el tema que de verdad le importaba: la estrategia .NET, la gran apuesta de Microsoft por atraer desarrolladores 'externos'.
 
-Veinticinco años después, la industria repite el mismo ritual con otra palabra. "Agentes, agentes, agentes" resuena en cada keynote, cada blog de ingeniería, cada feature nueva de cada IDE. Y como pasa con todo ciclo de hype, ya generó su propio meme: no una celebración, sino una crítica — CEOs post-2023 usando "la IA va a revolucionar nuestras vidas" como cortina de humo para anunciar despidos. Un giro bastante más oscuro que el de Ballmer, que al menos gritaba a favor de que la gente conservara su trabajo construyendo sobre su plataforma.
+Lo que Ballmer buscaba, en el fondo, no era solo entusiasmo arriba del escenario — era construir, a fuerza de voluntad corporativa, una comunidad de desarrolladores alrededor de .NET. Algo que Linux traía incorporado desde su nacimiento: nació en 1991 como un proyecto colaborativo, construido por y para una comunidad abierta. .NET tenía que fabricar esa comunidad desde cero, compitiendo contra una que ya existía por diseño.
 
-Pero detrás del meme hay una historia real, con papers verificables y tres formas muy distintas de resolver el mismo problema. Vale la pena contarla completa.
+Veinticinco años después, se puede reconocer un patrón parecido en el desarrollo de las herramientas de IA. Los jugadores principales — Claude, Copilot, Gemini — llegaron rápido a una conclusión similar: no alcanza con tener un modelo potente, hace falta ponerle a la comunidad de desarrolladores herramientas realmente “usables” alrededor de ese modelo. Ahí es donde entran los agentes en escena — y cada empresa los está implementando de una forma distinta, con decisiones de arquitectura que vale la pena entender antes de elegir con cuál construir.
 
 ## Los agentes no nacieron con ChatGPT
 
