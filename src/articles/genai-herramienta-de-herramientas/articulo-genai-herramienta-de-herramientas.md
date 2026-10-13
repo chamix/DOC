@@ -3,7 +3,7 @@ title: "El sprint cero: de oráculo a compilador de intención"
 layout: medium-editorial.njk
 ---
 
-# El sprint cero: de oráculo a compilador de intención
+![](./img/genai-herramienta-de-herramientas.webp)
 
 Hace unas semanas necesitaba un reporte. Nada glamoroso: un resumen de work items de Azure DevOps para entender en qué estaba parado un equipo. Abrí el chat, le pedí a la IA que se conectara a la organización a través de un MCP, trajera la data y armara el reporte. Treinta segundos después tenía exactamente lo que pedí.
 
